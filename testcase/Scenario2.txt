@@ -7,4 +7,4 @@ And user use incorrect password
 And user login
 Then user unsuccessfully login
 Then user see Error wording “Incorrect username or password”
-And user request to try again
+And user request to try again and again
