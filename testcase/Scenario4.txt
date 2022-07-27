@@ -1,0 +1,12 @@
+Scenario 4: User success register to sekolahmu
+
+Given user is a new user
+When user open to sekolahmu register page
+And user select register for as
+And user select Jenjang
+And user fulfill Nama Lengkap
+And user fulfill Alamat Email
+And user fulfill Nomor Ponsel
+And user fulfill Kata Sandi
+And user click Daftar Sekarang
+Then user is registered and go to verification page
