@@ -1,0 +1,10 @@
+Scenario 1: User invalid login to homepage with incorrect email
+
+Given user an existing user
+When user open to sekolahmu login page
+And user use incorrect email
+And user use correct password
+And user login
+Then user unsuccessfully login
+Then user see Error wording “Incorrect username or password”
+And user request to try again
