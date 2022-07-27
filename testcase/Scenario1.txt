@@ -5,6 +5,6 @@ When user open to sekolahmu login page
 And user use incorrect email
 And user use correct password
 And user login
-Then user unsuccessfully login
+Then user successfully login
 Then user see Error wording “Incorrect username or password”
 And user request to try again
