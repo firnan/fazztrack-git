@@ -10,3 +10,4 @@ And user fulfill Nomor Ponsel
 And user fulfill Kata Sandi
 And user click Daftar Sekarang
 Then user is registered and go to verification page
+And user fulfill verification code
